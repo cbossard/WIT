@@ -1,0 +1,87 @@
+.red-circle{
+	width: 100px;
+	height: 100px;
+	border-color: red;
+	border-radius: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+img#logoWit{
+	background-color: white;
+}
+
+h1.gros-margin-bottom, 
+h2.gros-margin-bottom, 
+p.gros-margin-bottom,
+.reveal .slides section img.gros-margin-bottom{
+	margin-bottom: 80px;
+}
+
+.reveal .uppercase{
+	text-transform: uppercase;
+}
+
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3{
+	line-height: 1em;
+}
+
+.reveal .slides .pink{
+	color: #ec008c;	
+}
+
+.reveal .slides .pink-fonce{
+	color: #9F1065;	
+}
+
+.reveal .slides h1.titre-transition{
+	color: #9F1065;		
+	font-size: 90px;
+	text-transform: uppercase;
+}
+
+.reveal .slides .blue{
+	color: rgb(18, 172, 239);
+}
+
+.reveal .slides section img{
+	border: none;
+	background: none;
+}
+
+.reveal .slides .bandeau{
+	background-color: rgba(255,255,255,0.7);
+}
+
+#magnifying-glass
+{
+	position: absolute;
+	bottom: 100px;
+	left: 315px;
+ font-size: 10em; /* This controls the size. */
+ display: inline-block;
+ width: 0.4em;
+ height: 0.4em;
+ border: 0.1em solid #9F1065;
+ /*position: relative;*/
+ border-radius: 0.35em;
+}
+#magnifying-glass::before
+{
+ content: "";
+ display: inline-block;
+ position: absolute;
+ right: -0.25em;
+ bottom: -0.1em;
+ border-width: 0;
+ background: #9F1065;
+ width: 0.35em;
+ height: 0.08em;
+ -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+}
